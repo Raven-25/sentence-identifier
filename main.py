@@ -22,7 +22,7 @@ def classify_sentence(sentence):
     else:
         return "simple"
 
-# This is a functions you can use to integrate the above anywhere seamlessly into your program.
+# This is a function you can use to integrate the above anywhere seamlessly into your program.
 def main():
     sentence = input("Enter a sentence: ")
     classification = classify_sentence(sentence)
